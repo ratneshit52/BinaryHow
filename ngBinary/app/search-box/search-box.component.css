@@ -1,0 +1,9 @@
+.jumbotron.search-box-area {
+    padding: 20% 5%;
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron.search-box-area {
+        padding: 10% 20% 15%;
+    }
+}

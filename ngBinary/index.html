@@ -1,14 +1,39 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>BinaryHow</title>
-  <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<head>
+    <meta charset="utf-8">
+    <title>BinaryHow</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="//fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,700,700i" rel="stylesheet">
 </head>
+
 <body>
-  <app-root></app-root>
+    <app-root>
+        <style type="text/css">
+            .fixWrapper {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: -1;
+                background-color: white;
+                text-align: center;
+            }
+            
+            .fixWrapper img {
+                width: 50%;
+            }
+        </style>
+        <div class="fixWrapper">
+            <img src="assets/preloader.gif" alt="Preloader Image" />
+        </div>
+    </app-root>
 </body>
+
 </html>
